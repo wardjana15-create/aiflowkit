@@ -3,14 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Flow Kit</title>
+    <title>AI Flow Kit - Visual AI Workflows & Tools for Modern Business</title>
+    <meta name="description" content="Discover and build powerful AI workflows. AI Flow Kit is the ultimate visual hub connecting the best AI tools for marketing, development, and business automation.">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="AI Flow Kit - Visual AI Workflows">
+    <meta property="og:description" content="Your visual guide to building powerful AI workflows for business.">
+    <meta property="og:image" content="https://[your-username].github.io/aiflowkit/og-image.png">
+    <meta property="og:url" content="https://[your-username].github.io/aiflowkit/">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Welcome to AI Flow Kit</h1>
-    <p>If you can see this, your HTML is working!</p>
+    <!-- ===== HEADER & NAVIGATION ===== -->
+    <header class="header">
+        <nav class="container navbar">
+            <a href="#" class="logo">🤖 AI Flow Kit</a>
+            <div class="nav-links">
+                <a href="#workflows">Workflows</a>
+                <a href="#tools">Tools</a>
+                <a href="#academy">Academy</a>
+            </div>
+        </nav>
+    </header>
 
+    <main>
+        <!-- ===== HERO SECTION ===== -->
+        <section class="hero">
+            <div class="container">
+                <h1>Stop Searching. Start Building.</h1>
+                <p>AI Flow Kit is your visual hub to discover, connect, and master powerful AI workflows. Transform your business with the right AI tools, chained together for maximum impact.</p>
+                <a href="#workflows" class="btn">Explore Workflows</a>
+            </div>
+        </section>
+
+        <!-- ===== ADSENSE PLACEHOLDER 1 ===== -->
+        <section class="container">
+            <div style="text-align: center; padding: 2rem 0; border: 1px dashed var(--border-color); border-radius: 8px;">
+                <p style="color: var(--text-secondary); font-size: 0.875rem;">[AdSense Ad Unit 1 - Banner/In-Feed]</p>
+            </div>
+        </section>
+
+        <!-- ===== WORKFLOWS SECTION ===== -->
+        <section id="workflows">
+            <div class="container">
+                <h2 style="text-align: center;">AI-Powered Workflows</h2>
+                <p style="text-align: center; max-width: 700px; margin: 0 auto 3rem auto;">Click on a workflow to see the step-by-step process and the exact AI tools we recommend for each stage.</p>
+                
+                <div id="workflow-container">
+                    <!-- Workflow 1: Content Marketing Machine -->
+                    <div class="workflow-card" data-workflow="content-marketing">
+                        <div class="workflow-header">
+                            <h3>✍️ The Content Marketing Machine</h3>
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="workflow-details">
+                            <div class="step">
+                                <span class="step-number">1</span>
+                                <div class="step-content">
+                                    <h4>Ideation & Research</h4>
+                                    <p>Use AI to find trending topics and analyze competitor content.</p>
+                                    <p class="tool-links">Recommended Tools: <a href="#">ChatGPT</a>, <a href="#">AnswerThePublic</a></p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">2</span>
+                                <div class="step-content">
+                                    <h4>Drafting & Writing</h4>
+                                    <p>Generate a full draft or specific sections in your brand's voice.</p>
+                                    <p class="tool-links">Recommended Tools: <a href="#">Jasper.ai</a>, <a href="#">Copy.ai</a></p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">3</span>
+                                <div class="step-content">
+                                    <h4>Visual Creation</h4>
+                                    <p>Create unique, engaging images and graphics to accompany your text.</p>
+                                    <p class="tool-links">Recommended Tools: <a href="#">Midjourney</a>, <a href="#">DALL-E 3</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Workflow 2: eCommerce Optimizer -->
+                    <div class="workflow-card" data-workflow="ecommerce">
+                        <div class="workflow-header">
+                            <h3>🛒 The eCommerce Optimizer</h3>
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="workflow-details">
+                             <div class="step">
+                                <span class="step-number">1</span>
+                                <div class="step-content">
+                                    <h4>Product Descriptions</h4>
+                                    <p>Generate compelling, SEO-friendly descriptions for hundreds of products.</p>
+                                    <p class="tool-links">Recommended Tools: <a href="#">Hypotenuse AI</a>, <a href="#">Adcreative.ai</a></p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">2</span>
+                                <div class="step-content">
+                                    <h4>Customer Support</h4>
+                                    <p>Deploy an AI chatbot to handle 24/7 customer inquiries instantly.</p>
+                                    <p class="tool-links">Recommended Tools: <a href="#">Tidio</a>, <a href="#">Intercom</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TOOLS DIRECTORY SECTION ===== -->
+        <section id="tools" style="background-color: var(--surface-color);">
+            <div class="container">
+                <h2 style="text-align: center;">The Ultimate AI Tool Directory</h2>
+                <p style="text-align: center; margin-bottom: 3rem;">Search and filter through all the AI tools mentioned in our workflows.</p>
+                
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <input type="text" id="tool-search" placeholder="Search for a tool..." class="search-input">
+                    <button id="search-btn" class="search-button">Search</button>
+                </div>
+
+                <div id="tool-grid">
+                    <!-- Tool Card 1 -->
+                    <div class="tool-card" data-category="writing">
+                        <img src="https://via.placeholder.com/150x80.png?text=Jasper.ai" alt="Jasper.ai Logo">
+                        <h3>Jasper.ai</h3>
+                        <p>A versatile AI writing assistant for creating blog posts, marketing copy, and more.</p>
+                        <span class="tool-tag">Writing</span>
+                    </div>
+                    <!-- Tool Card 2 -->
+                    <div class="tool-card" data-category="image">
+                        <img src="https://via.placeholder.com/150x80.png?text=Midjourney" alt="Midjourney Logo">
+                        <h3>Midjourney</h3>
+                        <p>Generate stunning, artistic images from text prompts via a Discord bot.</p>
+                        <span class="tool-tag">Image Generation</span>
+                    </div>
+                    <!-- Tool Card 3 -->
+                    <div class="tool-card" data-category="seo">
+                        <img src="https://via.placeholder.com/150x80.png?text=SurferSEO" alt="SurferSEO Logo">
+                        <h3>SurferSEO</h3>
+                        <p>Analyze and optimize your on-page SEO with data-driven content guidelines.</p>
+                        <span class="tool-tag">SEO</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ===== AI ACADEMY SECTION ===== -->
+        <section id="academy">
+            <div class="container">
+                <h2 style="text-align: center;">AI Academy</h2>
+                <p style="text-align: center; max-width: 700px; margin: 0 auto 3rem auto;">Go deeper. Learn the fundamentals of AI and how to implement it in your business with our in-depth guides.</p>
+                
+                <div class="academy-container">
+                    <details class="academy-item">
+                        <summary>Getting Started with AI in Business</summary>
+                        <p>This guide covers the essential first steps for integrating AI into your operations, from identifying opportunities to choosing your first tool...</p>
+                    </details>
+                    <details class="academy-item">
+                        <summary>Prompt Engineering 101</summary>
+                        <p>The quality of your AI output depends on the quality of your input. Learn the art and science of writing effective prompts...</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 AI Flow Kit. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms-of-service.html">Terms of Service</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
     <script src="script.js"></script>
+    
 </body>
 </html>
